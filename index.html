@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel = "icon" href = "images/self_improvement.png" type = "image/x-icon">
+    <title>Home Page</title>
+</head> 
+<body>
+    <nav>
+        <div class="logo">
+            <span class="material-symbols-outlined">
+                self_improvement
+            </span>
+        </div>
+        <ul class="navlinks">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#ailment">Ailments</a></li>
+            <li class="dropdown"> Portfolio
+                <div class="dropdown-content">
+                    <a href="PORTFOLIO/index.html">Portfolio</a>
+                    <a href="PORTFOLIO/Aboutme.html">About Me</a>
+                    <a href="PORTFOLIO/Contact.html">Contact</a>
+                    </div>
+            <li class="dropdown"> Asanas
+                <div class="dropdown-content">
+                    <a href="asanas/balasana.html">Balasana</a>
+                    <a href="asanas/pranayam.html">Pranayam</a>
+                    <a href="asanas/paripuravananasana.html">Boat Pose</a>
+                    <a href="asanas/suryanamaskar.html">Surya Namaskar</a>
+                    <a href="asanas/cobra.html">Cobra Pose</a>
+                    <a href="asanas/varkasana.html">Tree Pose</a>
+                    <a href="asanas/tadasana.html">Tadasana</a>
+                </div>
+            </li>
+            <li> <a href="#contactus">Contact us</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <script src="javascript/nav.js"></script>
+    <header id="showcase">
+            <h1 > Rog-Free </h1>
+        <p>
+            Yoga helps you in forming perfect harmony between your body and your mind.
+        </p>
+        <a href="#ailment" class="button">Read more</a>
+    </header>
+    <div id="ailment">
+        <section class="cards">
+            <h1>Select your ailment!</h1>
+            <div class="search-box">
+                <div class="search-input">
+                    <input type="text" placeholder="Type to search..">
+                    <div class="autocom-box">
+                    </div>
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+            </div>
+            <div class="cue">
+                <div class="box">
+                    <a href="diseases/digestive.html">
+                    <img src="images/digestive.jpg" alt="digestive">
+                    <div class="dis">Digestive disorders</div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="diseases/heartdisease.html">  
+                        <img src="images/heart.jpg" alt="heart Diseases">
+                        <div class="dis"> Heart problem</div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="diseases/depression.html">
+                    <img src="images/anxiety.jpg" alt="anxiety">
+                    <div class="dis"> Anxiety/panic </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="diseases/asthama.html">
+                    <img src="images/asthma.jpg" alt="asthma">
+                    <div class="dis"> Asthma</div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="diseases/bodypain.html">
+                    <img src="images/pain.jpg" alt="back pain">
+                    <div class="dis"> Joint pain</div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="diseases/diabetes.html">
+                    <img src="images/diabetes.jpg" alt="diabetes">
+                    <div class="dis">Diabetes</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="contactus">
+        <form action="https://formsubmit.co/devanshsahni123@gmail.com" method="POST">
+            <section class="contact">
+                <h1>Contact Us</h1>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <textarea type="text" class="message" name="Message" placeholder="Type your message here"></textarea>
+                <button type="submit"> Send</button>
+                <input type="hidden" name="_next" value="https://devanshsahni.github.io/Rog-Free/">
+            </section>
+        </form>
+    </div>
+<footer class="footer">
+        <p>Be a part of our community today.</p><br>
+        <div class = "foot"> 
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>        
+    </footer>
+    <script src="javascript/searchbox.js"></script>
+</body>
+</html>
